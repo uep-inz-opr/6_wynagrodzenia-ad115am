@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "test1",
+      "setup": "",
+      "run": "python3 main.py",
+      "input": "2\r\nBartek 2580\r\nMarek 1680",
+      "output": "Bartek 1863.91 535.09 3115.09\r\nMarek 1237.20 348.43 2028.43\r\n5143.52",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "test2",
+      "setup": "",
+      "run": "python3 main.py",
+      "input": "3\r\nBartek 2666\r\nMarek 10901\r\nDamian 5629",
+      "output": "Bartek 1924.45 552.93 3218.93\r\nMarek 7661.90 2260.87 13161.87\r\nDamian 3988.11 1167.45 6796.45\r\n23177.25",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "test3",
+      "setup": "",
+      "run": "python3 main.py",
+      "input": "1\r\nAsia 1901",
+      "output": "Asia 1390.74 394.26 2295.26\r\n2295.26",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    }
+  ]
+}

@@ -43,7 +43,7 @@ for pracownik in range(liczba_pracownikow):
     dane_pracownika = list(input().split(' ', maxsplit=1))
     pracownicy.append(Pracownik(dane_pracownika[0], float(dane_pracownika[1])))
 for pracownik in pracownicy:
-    print(f"{pracownik.imie} {pracownik.oblicz_wynagrodzenie_netto():.2f} {pracownik.oblicz_skladki_pracodawcy()} {pracownik.oblicz_koszt_pracodawcy()}")
+    print(f"{pracownik.imie} {pracownik.oblicz_wynagrodzenie_netto():.2f} {pracownik.oblicz_skladki_pracodawcy():.2f} {pracownik.oblicz_koszt_pracodawcy()}")
     Pracownik.koszt_pracodawcy_suma += (pracownik.oblicz_koszt_pracodawcy())
 print(Pracownik.koszt_pracodawcy_suma)
 
